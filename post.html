@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>为什么极简设计反而更难做 — RYAN.</title>
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="bg-lines" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="bg-noise" aria-hidden="true"></div>
+
+  <aside class="sidebar">
+    <a class="sidebar__logo" href="index.html">RYAN<i class="dot">.</i></a>
+    <nav class="sidebar__nav">
+      <a href="blog.html" class="is-active"><span class="num">01</span>Blog</a>
+      <a href="works.html"><span class="num">02</span>Works</a>
+      <a href="about.html"><span class="num">03</span>About</a>
+      <a href="contact.html"><span class="num">04</span>Contact</a>
+    </nav>
+    <div class="sidebar__meta">
+      <p class="status"><span class="blink-dot"></span>AVAILABLE</p>
+      <p class="clock" id="clock">--:--:--</p>
+    </div>
+  </aside>
+
+  <header class="topbar">
+    <a class="topbar__logo" href="index.html">RYAN<i class="dot">.</i></a>
+    <nav class="topbar__nav">
+      <a href="blog.html">Blog</a>
+      <a href="works.html">Works</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <article class="article">
+      <a class="article__back" href="blog.html">← BACK TO POSTS</a>
+
+      <header class="article__head">
+        <div class="article__meta">
+          <span class="post__tag">DESIGN</span>
+          <time>2026.07.08</time>
+          <span>READ — 6 MIN</span>
+        </div>
+        <h1 class="article__title">为什么极简设计反而更难做</h1>
+      </header>
+
+      <div class="article__body">
+        <p>减法比加法难。当页面上只剩下排版、线条和留白时，每一个像素的决定都无处可藏。装饰可以掩盖平庸的排版，但极简不行——它把所有基本功都暴露在光天化日之下。</p>
+
+        <h2>留白不是空白</h2>
+        <p>很多人把极简理解成"删掉东西"，但留白其实是一种主动的设计元素。它决定了视线的落点、内容的呼吸感和层级关系。好的留白让重要的东西自己浮出来，而不需要加粗、变色、放大三连。</p>
+        <blockquote>
+          <p>"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." — Antoine de Saint-Exupéry</p>
+        </blockquote>
+
+        <h2>线条是最便宜的结构</h2>
+        <p>一条 <code>1px</code> 的细线能做的事远超它的成本：分隔区块、暗示网格、引导视线。像 rurudot.net 这样的站点，整个版面的秩序感几乎全靠贯穿页面的垂直细线撑起来。</p>
+        <pre><code>.bg-lines span {
+  width: 1px;
+  height: 100%;
+  background: rgba(10, 10, 10, .09);
+}</code></pre>
+
+        <h2>克制的点缀色</h2>
+        <p>黑白灰打底，点缀色只在交互反馈和关键信息上出现。用得越少，出现时越有力量。这就是"高级感"的配方之一：不是用更贵的颜色，而是用更少的颜色。</p>
+      </div>
+
+      <footer class="article__foot">
+        <a href="index.html">← PREV</a>
+        <a href="index.html">NEXT →</a>
+      </footer>
+    </article>
+
+    <footer class="footer">
+      <p>© 2026 RYAN<i class="dot">.</i> ALL RIGHTS RESERVED.</p>
+      <a href="index.html" class="footer__top">BACK TO HOME ↑</a>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
