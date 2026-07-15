@@ -38,8 +38,9 @@
     <a class="topbar__logo" href="index.html" aria-label="RYAN."><img src="assets/logo.svg" alt="RZ — Ryan Zhang"></a>
     <nav class="topbar__nav">
       <a href="blog.html">Blog</a>
-      <a href="works.html">Works</a>
+      <a href="works.html" class="is-active">Works</a>
       <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
@@ -53,7 +54,7 @@
       </h1>
       <div class="page-head__meta">
         <span>PROJECTS — <b>04</b> ITEMS</span>
-        <span>2025 → 2026</span>
+        <span>2024 → 2026</span>
       </div>
       <span class="page-head__ghost" aria-hidden="true">02</span>
     </header>
@@ -61,61 +62,63 @@
     <section class="section">
       <div class="works-grid reveal">
 
-        <a class="work-card" href="#">
+        <a class="work-card" href="https://github.com/RyanZhang0412/ZhuoDaoMedAssistant" target="_blank" rel="noopener">
           <span class="corners" aria-hidden="true"></span>
-          <span class="work-card__idx">FIG.01 — WEB APP</span>
+          <span class="work-card__idx">FIG.01 — PYTHON / AGENT</span>
           <div class="work-card__cover">
             <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <circle cx="150" cy="150" r="88" fill="var(--ink)"/>
-              <rect x="252" y="96" width="58" height="58" fill="var(--accent)"/>
-              <line x1="40" y1="252" x2="360" y2="252" stroke="var(--ink)" stroke-width="2"/>
-              <circle cx="310" cy="200" r="6" fill="var(--accent-2)"/>
+              <circle cx="130" cy="150" r="70" fill="none" stroke="var(--ink)" stroke-width="2"/>
+              <circle cx="270" cy="150" r="70" fill="none" stroke="var(--ink)" stroke-width="2"/>
+              <circle cx="200" cy="150" r="28" fill="var(--ink)"/>
+              <rect x="186" y="70" width="28" height="40" fill="var(--accent)"/>
+              <circle cx="320" cy="80" r="6" fill="var(--accent-2)"/>
             </svg>
           </div>
-          <h2 class="work-card__title">Grid Notes — 基于 8pt 网格的笔记应用</h2>
+          <h2 class="work-card__title">卓道康复助手 — 本地离线医疗 Agent</h2>
           <div class="work-card__meta">
-            <span>DESIGN + DEV</span>
+            <span>ASR · LLM · RULES</span>
             <time>2026</time>
           </div>
         </a>
 
-        <a class="work-card" href="#">
+        <a class="work-card" href="https://github.com/RyanZhang0412/NavEngine" target="_blank" rel="noopener">
           <span class="corners" aria-hidden="true"></span>
-          <span class="work-card__idx">FIG.02 — ICON SET</span>
+          <span class="work-card__idx">FIG.02 — ROBOTICS</span>
           <div class="work-card__cover">
             <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M100 220 a70 70 0 0 1 140 0 z" fill="var(--ink)"/>
-              <path d="M170 90 a70 70 0 0 0 140 0 z" fill="none" stroke="var(--ink)" stroke-width="2"/>
-              <circle cx="310" cy="220" r="26" fill="var(--accent-2)"/>
-              <line x1="60" y1="60" x2="120" y2="60" stroke="var(--accent)" stroke-width="4"/>
+              <polyline points="40,220 120,180 180,200 240,120 300,160 360,90" fill="none" stroke="var(--ink)" stroke-width="2"/>
+              <circle cx="240" cy="120" r="10" fill="var(--accent)"/>
+              <rect x="60" y="60" width="48" height="48" fill="none" stroke="var(--ink)" stroke-width="2"/>
+              <line x1="60" y1="250" x2="340" y2="250" stroke="var(--line)" stroke-width="2"/>
+              <circle cx="340" cy="250" r="5" fill="var(--accent-2)"/>
             </svg>
           </div>
-          <h2 class="work-card__title">Mono Icons — 几何单线图标集</h2>
+          <h2 class="work-card__title">NavEngine — 视觉循线与串口协议层</h2>
           <div class="work-card__meta">
-            <span>ICONOGRAPHY</span>
-            <time>2025</time>
+            <span>YOLO · SERIAL · PYTHON</span>
+            <time>2026</time>
           </div>
         </a>
 
-        <a class="work-card" href="#">
+        <a class="work-card" href="https://xuangallery.me" target="_blank" rel="noopener">
           <span class="corners" aria-hidden="true"></span>
-          <span class="work-card__idx">FIG.03 — TOOL</span>
+          <span class="work-card__idx">FIG.03 — WEB / GALLERY</span>
           <div class="work-card__cover">
             <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <polygon points="200,60 320,240 80,240" fill="none" stroke="var(--ink)" stroke-width="2"/>
-              <polygon points="200,120 260,220 140,220" fill="var(--accent)"/>
-              <line x1="48" y1="80" x2="48" y2="240" stroke="var(--ink)" stroke-width="2"/>
-              <line x1="352" y1="80" x2="352" y2="240" stroke="var(--ink)" stroke-width="2"/>
+              <rect x="60" y="50" width="160" height="120" fill="none" stroke="var(--ink)" stroke-width="2"/>
+              <rect x="180" y="110" width="160" height="120" fill="var(--ink)"/>
+              <circle cx="140" cy="100" r="18" fill="var(--accent-2)"/>
+              <polygon points="180,230 260,160 340,230" fill="var(--accent)"/>
             </svg>
           </div>
-          <h2 class="work-card__title">Tempo — 一个不打扰你的番茄钟</h2>
+          <h2 class="work-card__title">Xuan Gallery — 轻量静态图库站点</h2>
           <div class="work-card__meta">
-            <span>PRODUCT</span>
-            <time>2025</time>
+            <span>HTML · GITHUB PAGES</span>
+            <time>2024</time>
           </div>
         </a>
 
-        <a class="work-card" href="index.html">
+        <a class="work-card" href="https://github.com/RyanZhang0412/RyanZhang0412.github.io" target="_blank" rel="noopener">
           <span class="corners" aria-hidden="true"></span>
           <span class="work-card__idx">FIG.04 — THIS SITE</span>
           <div class="work-card__cover">
